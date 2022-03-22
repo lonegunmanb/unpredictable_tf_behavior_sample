@@ -145,7 +145,7 @@ Plan: 1 to add, 0 to change, 2 to destroy.
 
 We just deleted one db name, but the plan want to destroy two dbs and create a new one as instead, why?
 
-The key point is that we use `count`
+The key point is that we used `count`
 
 ```hcl
 resource "azurerm_postgresql_server" "example" {
